@@ -1,0 +1,18 @@
+Proceso Area_Triangulo
+	
+	//Valores Insertados
+	Escribir "Calcular el area de un triangulo"
+	escribir " " 
+	Escribir "la base de tu triangulo es" Sin Saltar
+	Leer base
+	escribir " "
+	Escribir "la altura de tu triangulo es" sin saltar
+	leer altura 
+	Escribir  " "
+	escribir "el area de tu triangulo es igual a"
+	
+	//Operacion
+	AreaTriangulo<-base * altura / 2
+	Escribir AreaTriangulo
+	
+FinProceso
