@@ -1,0 +1,51 @@
+Algoritmo Cacificaciones
+	
+	//Insertar Calificacion 1
+	Escribir "	Tu primera calificacion es:" Sin Saltar
+	Escribir " "
+	Leer Calificacion1
+	
+	//Insertar Calificacion 2
+	Escribir "Tu segunda calificacion es:" Sin Saltar
+	escribir " "
+	leer Calificacion2
+	
+	//Insertar Calificacion 3
+	escribir "Tu tercera calificacion es:" Sin Saltar
+	Escribir " "
+	leer Calificacion3
+	
+	//Separador
+	Escribir " "
+	
+	//Valor de Variables
+	Calificacion1R<- Calificacion1 * 25/100
+	Calificacion2R<- Calificacion2 * 25/100
+	Calificacion3R<- Calificacion3 * 50/100
+	
+	//Mostrar Resultado Individual
+	Escribir "Los resultados de cada una de tus pruebas fue:"
+	Escribir Calificacion1R "puntos"
+	Escribir Calificacion2R "puntos"
+	Escribir Calificacion3R "puntos"
+	
+	//Separador
+	Escribir " "
+	
+	//Variable suma final
+	CalificacionF<- Calificacion1R + Calificacion2R + Calificacion3R
+	
+	//Mostrar suma de resultados
+	Escribir "Tu calificacion final de tus 3 evaluaciones es:"
+	Escribir CalificacionF
+	
+	//Verificar si el alumno pasa
+	Si CalificacionF > 5 Entonces
+		Escribir "pasaste ;D"
+	SiNo
+		Escribir "no pasaste :("
+	Fin Si
+	
+	//Algoritmo hecho por Jesus Ramses Juarez Ortiz 4AM
+	
+FinAlgoritmo
