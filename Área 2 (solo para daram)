@@ -1,0 +1,27 @@
+Proceso CalcularAreaT
+	
+	//base
+	Escribir "en este apartado puedes calcular el area de un triangulo"
+	Escribir "Tu base es" Sin Saltar
+	Leer Base
+	
+	//separador
+	Escribir " "
+	
+	//altura
+	Escribir "Tu altura es" Sin Saltar
+	Leer Altura
+	
+	//separador
+	Escribir " "
+	
+	//proceso de datos
+	AreaTriangulo <- Base * Altura / 2
+	
+	//Muestra de resultados
+	Escribir "el area de tu triangulo es:"
+	escribir AreaTriangulo
+	
+	//Algoritmo por Jesus Ramses Juarez Ortiz
+	
+FinProceso
