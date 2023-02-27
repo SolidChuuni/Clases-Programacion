@@ -1,0 +1,93 @@
+Proceso Calificacion
+	
+	//Datos
+	//Calificacion1
+	Escribir "Inserta tu primera calificacion" Sin Saltar
+	Escribir " "
+	Leer Calificacion1
+	
+	//separador
+	Escribir " "
+	
+	//Calificacion2
+	Escribir "Inserta tu segunda calificacion" Sin Saltar
+	Escribir  " "
+	Leer Calificacion2
+	
+	//separador
+	Escribir " "
+	
+	//Calificacion3
+	Escribir "Inserta tu tercera calificacion" Sin Saltar
+	Escribir  " "
+	Leer Calificacion3
+	
+	//separador
+	escribir " "
+	
+	//3 Valores
+	ValoresTotales <- Calificacion1 + Calificacion2 + Calificacion3
+	
+	//Valores invalidos
+	Si ValoresTotales <= 30 Entonces
+		
+		//Valores y variables
+		Calificacion1R <- Calificacion1 * 25 / 100
+		Calificacion2R <- Calificacion2 * 25 / 100
+		Calificacion3R <- Calificacion3 * 50 / 100
+		
+		//Muestra de resultados
+		Escribir "Tus calificaciones fueron las siguientes" Sin Saltar
+		Escribir " "
+		Escribir Calificacion1R
+		Escribir Calificacion2R
+		Escribir Calificacion3R
+		
+		//Separador
+		Escribir " "
+		
+		//saber si requiere un resultado sumado
+		Escribir  "¿Requieres un resultado total?, si tu respuesta  es si, escribe 1, si no, escribe -1" Sin Saltar
+		Escribir " "
+		Leer Respuesta
+		
+		//Vatriables 2
+		Seguro <- 1
+		TalvezLuego <- -1
+		
+		
+		Si Respuesta = 1 Entonces
+			Escribir "Aqui lo tienes :D"Sin Saltar
+			Escribir " "
+			
+			ResultadoFinal <- Calificacion1R + Calificacion2R + Calificacion3R
+			
+			Escribir ResultadoFinal
+			
+			Si ResultadoFinal > 5 Entonces
+				
+				escribir " "
+				Escribir  "Aprobaste :D"
+				
+			Sino
+				
+				Escribir " "
+				Escribir "No aprobaste :("
+				
+			Fin Si
+		Sino
+			
+			escribir " "
+			Escribir "Ok, tal vez luego"
+			
+		Fin Si
+	Sino
+		
+		Escribir " " 
+		Escribir "La accion no se puede completar debido a que los valores son mayores a 10"
+		
+	Fin Si
+	
+	
+	
+FinProceso
