@@ -1,0 +1,47 @@
+Proceso Calcular_edad
+	
+	//Textos
+	Escribir "Acontinuacion escribe tu año de nacimiento" Sin Saltar
+	
+	
+	//Separador
+	Escribir " "
+	
+	//Inserccion de datos
+	Leer AñoNacimiento
+	
+	//Texto
+	Escribir  "Ecribe el año actual"
+	
+	//separador 
+	escribir " "
+	
+	//Inserccion de datos 2
+	Leer AñoActual
+	
+	//Variables y valores
+	Edad <- AñoNacimiento - AñoActual
+	
+	//Edad final
+	
+	Escribir "Tu edad es" Sin Saltar
+	Escribir Edad
+	
+	Si edad > 18 Entonces
+		
+		//sepárador
+		Escribir  " "
+		
+		//Textos
+		Escribir "Eres mayor de edad, por tanto ya puedes votar"
+		
+	Sino
+		
+		//separador
+		Escribir  " "
+		
+		//textos
+		Escribir "Eres menor de edad, aun no puedes votar"
+		
+	Fin Si
+	
