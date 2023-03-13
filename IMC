@@ -1,0 +1,58 @@
+Proceso Calcular_IMC
+	
+	//Obtener kg's
+	Escribir "aqui podras calcular tu Indice de Masa Corporal (IMC)"
+	Escribir "Por favor coloca tu peso en kg" Sin Saltar
+	Escribir " "
+	Leer Kg
+	
+	//Separador
+	Escribir " "
+	
+	//Obtener metros
+	Escribir "Por favor coloca tu altura en mts"Sin Saltar
+	Escribir " "
+	Leer Mts
+	
+	//variables y datos
+	IMC = kg / (mts*mts)
+	
+	//separador
+	Escribir " "
+	
+	//valores logicos
+	
+	Si IMC < 18.5 Entonces
+		
+		//Texto
+		Escribir "Tas muy flaquito mijo come mas para ponerte ponchado "
+		
+	Sino
+		//Funcion logica 2
+		Si IMC >= 18.5 Y IMC < 25 Entonces
+			
+			//Texto
+			Escribir "Tu peso es normal"
+			
+		Sino
+			
+			Si IMC >= 25 Y IMC < 30 Entonces
+				
+				
+				//Texto
+				Escribir "Tienes sobrepeso"
+				
+			Sino
+				
+				//Texto
+				Escribir "Tienes obesidad morbida"
+				
+			Fin Si
+			
+		Fin Si
+		
+	Fin Si
+	
+	//Algoritmo por Jesus Ramses Juarez Ortiz 4AM
+	
+FinProceso
