@@ -1,0 +1,66 @@
+Algoritmo CalcularIMC
+	
+	//Credito Ejecutalble
+	Escribir "Jesus Ramses Juarez Ortiz 4AM"
+	
+	//Separador
+	Escribir " "
+	
+	//Inicio
+	Escribir "Con este algoritmo podras calcular tu IMC"
+	
+	//Separador
+	Escribir " "
+	
+	//Obtener Datos
+	//Obtener Peso (Kg)
+	Escribir  "En este apartado coloca tu peso en kg"
+	Escribir " " Sin Saltar 
+	Leer Kg
+	
+	//Obtener Altura
+	Escribir "A continuacion coloca tu altura en metros"
+	Escribir " "Sin Saltar
+	Leer Altura
+	
+	//Variables y Asignacion de datos
+	IMC <- kg / (Altura * Altura)
+	
+	//Proceso y operaciones logicas
+	si IMC < 18.5 Entonces 
+		
+		//Separador y texto
+		Escribir " "
+		Escribir "Tienes desnutricion"
+		
+	SiNo
+		
+		si IMC >= 18.5 Y IMC < 25 Entonces
+			
+			//Separador y texto
+			Escribir " "
+			Escribir "Tu peso es normal"
+			
+		SiNo
+			
+			si IMC >= 25 Y IMC < 30 Entonces
+				
+				//Separador y textos
+				Escribir " "
+				Escribir "Tienes sobrepeso"
+				
+			SiNo
+				
+				//Separador y textos
+				Escribir " "
+				Escribir "Tienes Obesidad"
+				
+			FinSi
+			
+		FinSi
+		
+	FinSi
+	
+	//Jesus Ramses Juarez Ortiz 4AM
+	
+FinAlgoritmo 
