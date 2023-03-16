@@ -1,0 +1,212 @@
+Algoritmo Calcular_edad
+	
+	//Credito ejecutable
+	Escribir "Algoritmo por Jesus Ramses Juarez Ortiz"
+	
+	//Texto inicial
+	Escribir"En este algoritmo podremos calcular tu edad (aproximada)"
+	
+	//Estraccion de datos
+	//Nacimiento de usuario
+	Escribir "Por favor, a continuacion escribe tu fehca de nacimiento"
+	Escribir " " Sin Saltar
+	Leer Nacimiento
+	
+	//Año acutal
+	Escribir "Escribe a continuacion el año actual"
+	Escribir " "  Sin Saltar
+	Leer Año
+	
+	//Variables
+	Edad <- Año - Nacimiento
+	
+	//Escribir edad del usuario
+	Escribir " "
+	Escribir Edad
+	
+	//Condiciones
+	si Edad > 18 Entonces
+		
+		//Texto
+		Escribir " "
+		Escribir "Eres mayor de edad, adelante, puedes votar, espera un momento"
+		
+		//Espera 
+		Esperar 5 Segundos
+		
+		//Refrescar
+		Limpiar Pantalla
+		
+		//Animacion de espera
+		Escribir "Buscando los partidos mas corruptos, espere ;)..."
+		Escribir "."
+		Esperar 1 Segundos
+		Limpiar Pantalla
+		
+		Escribir "Buscando los partidos mas corruptos, espere ;)..."
+		Escribir ". ."
+		Esperar 1 Segundos
+		Limpiar Pantalla
+		
+		Escribir "Buscando los partidos mas corruptos, espere ;)..."
+		Escribir ". . ."
+		Esperar 1 Segundos
+		Limpiar Pantalla
+		
+		Escribir "Buscando los partidos mas corruptos, espere ;)..."
+		Escribir ". . . ."
+		Esperar 1 Segundos
+		Limpiar Pantalla
+		
+		Escribir "Buscando los partidos mas corruptos, espere ;)..."
+		Escribir "."
+		Esperar 1 Segundos
+		Limpiar Pantalla
+		
+		Escribir "Buscando los partidos mas corruptos, espere ;)..."
+		Escribir ". ."
+		Esperar 1 Segundos
+		Limpiar Pantalla
+		
+		Escribir "Buscando los partidos mas corruptos, espere ;)..."
+		Escribir ". . ."
+		Esperar 1 Segundos
+		Limpiar Pantalla
+		
+		Escribir "Buscando los partidos mas corruptos, espere ;)..."
+		Escribir ". . . ."
+		Esperar 1 Segundos
+		Limpiar Pantalla
+		
+		//Espera
+		Esperar 2 Segundos
+		
+		//Espera finalizada
+		Escribir " "
+		Escribir "A continuacion podras votar"
+		
+		//Texto y lista de Partidos
+		Escribir "A continuacion encontraras los partidos disponibles y su numero para votar"
+		Escribir " "
+		Escribir "PRY: 1"
+		Escribir "PAM: 2"
+		Escribir "Moreno: 3"
+		Escribir "Partido anonimo sospechoso: 4"
+		
+		//Estraccion de respuesta
+		Escribir " "
+		Escribir "Por favor inserte su voto" Sin Saltar
+		Leer RespuestaPartido
+		
+		//Condiciones 2
+		si RespuestaPartido = 1 Entonces
+			
+			//Texto PRY
+			Escribir " "
+			Escribir "Oh no, el PRY gano y aumento la inflacion de la economia en Mexico, ¡¡50 pesos el medio de tortilla!! D:"
+			Escribir "Fin del camino malo..."
+			
+		SiNo
+			
+			//Condiciones 3
+			si RespuestaPartido = 2 Entonces
+				
+				//Texto PAM
+				Escribir " "
+				Escribir "Nada ha cambiado, Mexico sigue igual de corrupto :/"
+				Escribir "Fin del camino neutral..."
+				
+			SiNo
+				
+				//Condiciones 4
+				si RespuestaPartido = 3 Entonces
+					
+					//Texto Moreno
+					Escribir " "
+					Escribir "Moreno en realidad era una secta de reptilianos que comen gente, ¡¡HUYE POR TU VIDA!!"
+					Escribir "Fin del camino Genocida..."
+					
+				SiNo
+					
+					//Condiciones 5
+					si RespuestaPartido = 4
+						
+						//Rerescar
+						Limpiar Pantalla
+						
+						//Animacion
+						Escribir " "
+						Escribir "</=::::::::::::::/>"
+						Esperar 1 Segundos
+						Limpiar Pantalla
+						
+						Escribir " "
+						Escribir "</==:::::::::::::/>"
+						Esperar 1 Segundos
+						Limpiar Pantalla
+						
+						Escribir " "
+						Escribir "</======:::::::::/>"
+						Esperar 1 Segundos
+						Limpiar Pantalla
+						
+						Escribir " "
+						Escribir "</========:::::::/>"
+						Esperar 2 Segundos
+						Limpiar Pantalla
+						
+						Escribir " "
+						Escribir "</=========::::::/>"
+						Esperar 1 Segundos
+						Limpiar Pantalla
+						
+						Escribir " "
+						Escribir "</=============::/>"
+						Esperar 1 Segundos
+						Limpiar Pantalla
+						
+						Escribir " "
+						Escribir "</==============:/>"
+						Esperar 1 Segundos
+						Limpiar Pantalla
+						
+						Escribir " "
+						Escribir "</===============/>"
+						Esperar 4 Segundos
+						Limpiar Pantalla
+						
+						Escribir " "
+						Escribir "El partido misterioso era una comunidad alien que buscaba apoderarse del planeta, pero para reservarlo y cuidarlo mejor de lo que nosotros pudimos,estamos a salvo"
+						Escribir " "
+						Escribir "Final del camino bueno..."
+						
+					SiNo
+						
+						//NoSecretWay
+						si RespuestaPartido >= 5 Entonces
+							
+							//NoSecretway
+							Escribir " "
+							Escribir "NoSecretWay..."
+							Escribir ">:("
+							
+						FinSi
+						
+					FinSi
+					
+				FinSi
+				
+			FinSi
+			
+			
+		FinSi
+		
+		
+	SiNo
+		
+		//Texto
+		Escribir "Eres menor de 18 años, por tanto aun no puedes votar"
+		
+	FinSi
+	
+FinAlgoritmo
