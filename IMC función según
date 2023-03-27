@@ -1,0 +1,89 @@
+Proceso IMC
+		
+		//Credito ejecutable
+		Escribir "Jesus Ramses Juarez Ortiz"
+		
+		//Texto inicio
+		Escribir " "
+		Escribir "En este pseudocodigo podras calcular tu IMC (Indice de Masa Corporal)"
+		
+		//Extraccion de datos
+		//Esxtraccion de Peso (Kg)
+		Escribir " "
+		Escribir "A continuacion escribe tu peso en Kilogramos (Kg)" Sin Saltar
+		Leer Kg
+		
+		//Extraccion de altura (Mts)
+		Escribir " "
+		Escribir "A continuacion escribe tu altura en metros (mts)" Sin Saltar
+		Leer Mts
+		
+		//Variables y operaciones
+		IMCR <- Kg/(Mts * Mts)
+		
+		//Texto respuesta
+		Escribir "Tu IMC es"
+		Escribir IMCR
+		
+		//Menu de peso
+		//Sperarador
+		Escribir " "
+		Escribir "A continuacion tienes una lista de los IMC y sus condiciones"
+		Escribir " "
+		Escribir "1: Tu IMC es menor a 18.5"
+		Escribir " "
+		Escribir "2: Tu IMC esta entre 18.5 y 25"
+		Escribir " "
+		Escribir "3: Tu IMC esta entre 25 a 30"
+		Escribir " "
+		Escribir "4: El IMC es mayor a 35"
+		
+		//Extracion de dato
+		Escribir " "
+		Escribir "Escribe segun el dato que te corresponde"
+		Leer IMCM
+		
+	    //Funcion logica
+	    Segun IMCM Hacer
+		1:
+			
+			//Separador
+			Escribir " "
+			//Respuesta 1
+			Escribir "Tienes desnutricion"
+			
+		2:
+			
+			//Separador
+			Escribir " "
+			//Respuesta 2
+			Escribir "Tu peso es normal"
+			
+		3:
+			
+			//Separador
+			Escribir " "
+			//Respuesta 3
+			Escribir " Tienes sobrepeso"
+			
+		4:	
+			
+			//Separador
+			Escribir " "
+			//Respuesta4
+			Escribir "Tienes Obesidad"
+		 
+		De Otro Modo:
+			
+			//Separador
+			Escribir " "
+			//Respuesta alternativa
+			Escribir "Gracias por usar IMC"
+			
+		Fin Segun
+		
+		
+		
+		//Credito no ejecutable
+		
+FinProceso
