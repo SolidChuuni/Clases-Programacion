@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main(int argc, char *argv[]) {
+	
+	//Variables
+	float base, altura, areaTriangulo;
+	
+	//Texto
+	printf("En este programa podras calcular el area de un Triangulo \n");
+	
+	//Extraccion de datos
+	printf("Introduce la medida de la base");
+	scanf("%f", &base);
+	
+	printf("Introduce la medida de la altura");
+	scanf ("%f", &altura);
+	
+	//Operaciones
+	areaTriangulo = base * altura /2;
+	
+	//Salida de Datos
+	printf("el area del triangulo es %f, areaTriangulo");
+	
+	
+	//ret
+	return 0;
+}
+
