@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main(int argc, char *argv[]) {
+	
+	//Variables y valores
+	float base, altura, areaTriangulo;
+	
+	//Texto y extraccion de datos
+	printf("Programa en C para calcular el area de una figura triangular \n");
+	printf("Indica la medida de la base");
+	scanf("%f,", &base);
+	printf("Indica la medida de la altura");
+	scanf("%f,", &altura);
+	
+	//Operacion
+	areaTriangulo = base * altura / 2;
+	
+	//Resultado y salida
+	printf ("el area del triangulo es %f", areaTriangulo);
+	
+	return 0;
+}
+
